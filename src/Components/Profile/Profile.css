@@ -1,0 +1,39 @@
+.profile-parent-div {
+    padding-top: 7em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.profile-container-div {
+    display: flex;
+
+}
+
+.profile-left {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display:inline-block;
+}
+.profile-pic img {
+ width: 100%;
+ border-radius: 50%;
+ margin-top: 3em;
+}
+
+.profile-right {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.profile__text {
+    font-size: 1rem;
+    font-weight: 500;
+}
